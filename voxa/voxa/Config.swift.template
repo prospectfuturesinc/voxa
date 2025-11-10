@@ -1,0 +1,21 @@
+//
+//  Config.swift.template
+//  voxa
+//
+//  Supabase Configuration Template
+//  Copy this file to Config.swift and fill in your credentials
+//
+
+import Foundation
+
+struct Config {
+    // IMPORTANT: Replace these with your actual Supabase credentials
+    // You can find these in your Supabase project settings under API
+    static let supabaseURL = "https://ojppjbmqlodflmzpycoi.supabase.co"
+    static let supabaseAnonKey = "YOUR_SUPABASE_ANON_KEY_HERE"
+
+    // Apple Sign In Configuration
+    // For web OAuth: Use your Apple Service ID from Apple Developer Console
+    // For native iOS: This will use your Bundle ID automatically
+    static let appleClientId = "YOUR_APPLE_SERVICE_ID_HERE"
+}
