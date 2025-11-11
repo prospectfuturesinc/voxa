@@ -6,5 +6,9 @@
 	<array>
 		<string>Default</string>
 	</array>
+	<key>com.apple.developer.in-app-payments</key>
+	<array/>
+	<key>com.apple.developer.spatial-audio.profile-access</key>
+	<true/>
 </dict>
 </plist>
